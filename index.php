@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="indexBloc.css">
+    <link rel="icon" href="favicon.png"><!-- 32×32 -->
+</head>
+<body>
+
+    <div class="intro">
+        <div class="video">
+            <video class="video_media" src="video.mp4" autoplay muted loop></video>
+        </div>
+        <div class="container">
+            <header id="header" class="d-flex justify-content-center py-3">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page"><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Home" data-translation="Главная" data-ch="1" data-type="trSpan" style="visibility: inherit !important;">Главная</ya-tr-span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><ya-tr-span data-index="8-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Features" data-translation="Характеристики" data-ch="1" data-type="trSpan" style="visibility: inherit !important;">Характеристики</ya-tr-span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><ya-tr-span data-index="9-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Pricing" data-translation="Цены" data-ch="1" data-type="trSpan" style="visibility: inherit !important;">Цены</ya-tr-span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><ya-tr-span data-index="10-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="FAQs" data-translation="Вопросы и ответы" data-ch="1" data-type="trSpan" style="visibility: inherit !important;" data-selected="false">Вопросы и ответы</ya-tr-span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><ya-tr-span data-index="11-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="About" data-translation="О нас" data-ch="1" data-type="trSpan" style="visibility: inherit !important;">О нас</ya-tr-span></a></li>
+                </ul>
+            </header>
+            <div class="intro_content">
+                <h1 class="intro_title"><samp>FUTURUM</samp></h1>
+                <h3 class="title_signature">школа IT</h3>
+
+                <a href="#start"><button class="but_to_begin">Начать</button></a>
+
+                <h1 class="logo">&laquo;Лучшее будущее <span class="logo_span">начинается здесь</span>&raquo;</h1>
+            </div>
+        </div>
+    </div>
+    <div class="contener_sod">
+    
+
+    <!-- Первый раздел -->
+
+        <div class="bloc_important animation">
+            <h3 class="important_heading">Вводный раздел</h3>
+
+            <div class="new_bloc_important">
+                <div class="one_important">
+                    <h3>Привет мир</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi nulla amet quo nam illo alias exercitationem at adipisci asperiores ullam rem excepturi atque magni, velit eveniet itaque voluptatibus nihil fugit.</p>
+                </div>
+                <div class="two_important">
+                    <img src="https://avatars.mds.yandex.net/i?id=f8810d1540b5a5cb1fa8be899d26051c0cf921bb-4884345-images-thumbs&n=13">
+                </div>
+            </div>
+
+        </div>
+
+    <!-- Второй раздел -->
+
+        <div class="bloc_bloc_about_the_course animation_2">
+            <h3 class="about_the_course_heading">О курсе</h3>
+
+            <div class="new_bloc_about_the_course">
+                <div class="one_about_the_course">
+                    <img src="img.png">
+                </div>
+                <div class="two_about_the_course">
+                <h3>Привет мир</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi nulla amet quo nam illo alias exercitationem at adipisci asperiores ullam rem excepturi atque magni, velit eveniet itaque voluptatibus nihil fugit.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Блоки бесплатных уроков -->
+
+        <div class="cart">
+            
+        <h1 id="start">Бесплатные курсы</h1>
+
+        <div class="container_cart">
+  <div class="card">
+    <div class="card__header">
+      <img src="javacard.png" alt="card__image" class="card__image" width="600" height="200">
+    </div>
+    <div class="card__body">
+      <span class="tag tag-blue">Technology</span>
+      <h4>What's new in 2022 Tech</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="htmlcsscard.png" alt="card__image" class="card__image" width="600" height="200">
+    </div>
+    <div class="card__body">
+      <span class="tag tag-blue">Food</span>
+      <h4>Delicious Food</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="cshcard.png" alt="card__image" class="card__image" width="600" height="200">
+    </div>
+    <div class="card__body">
+      <span class="tag tag-blue">Automobile</span>
+      <h4>Race to your heart content</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+        <div class="block_footer">
+        <footer class="w-100 py-4 flex-shrink-0 footer_height">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-white">FB.</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+        </div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
